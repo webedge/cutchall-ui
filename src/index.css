@@ -1,0 +1,62 @@
+body {
+  background: #08495E;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;  
+}
+
+h1, h2, h3, h4, h5 { font-family: 'Poppins', sans-serif; }
+p { line-height: 180% }
+h1.page-title { color: white; font-weight: 600; font-size: 48px; margin: 24px 0; }
+h1.restaurant { text-shadow: 4px 4px rgba(0,0,0,.75) }
+h3 { color: #08495E; font-size: 18px; }
+h4 { color: #08495E; font-size: 16px; }
+.white { color: white; }
+a, a:hover { color: #13B6EC; }
+.navbar .container { align-items: flex-end; }
+.navbar-nav > * { margin-left: 10px; }
+/* button */
+.btn-primary {
+    background: #08495E; 
+    border-color: #08495E;
+    font-family: 'Poppins';
+    font-weight: 100;
+    font-size: 12px;
+}
+.btn-primary:hover {
+    background: #083949;
+}
+/* card */
+.card { box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.25); }
+.card h2 { margin-bottom: 25px; color: #08495E;}
+.card-header {
+    color: #08495E;
+    font-size: 16px;
+    background: none;
+}
+.dropdown-menu { font-size: 14px; }
+.dropdown-item.active, .dropdown-item:active { background: none; }
+.dropdown:hover>.dropdown-menu { display: block; }
+
+.dropdown-toggle::after {
+    border: none;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f107";
+    vertical-align: 0;
+}   
+
+.carousel-indicators {
+    bottom: 40px;
+}
+
+.carousel-item {
+    padding-bottom: 60px;
+}
+
+.carousel-caption {
+    background-color: #174856;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
